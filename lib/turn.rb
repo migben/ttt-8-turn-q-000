@@ -28,6 +28,6 @@ end
 def turn(board)
   puts "PLease enter 1-9:"
   input = gets.strip
-  idx = input_to_index
+  idx = input_to_index(input)
   if idx
 end
