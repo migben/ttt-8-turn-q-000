@@ -7,3 +7,9 @@ def valid_move?(board, idx)
     return true
   end
 end
+
+def position_taken?(board, idx)
+  return board[idx] != " "
+end
+
+def move(board, idx)
