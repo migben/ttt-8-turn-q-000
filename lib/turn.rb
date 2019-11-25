@@ -26,7 +26,7 @@ def move(board, index, choice = "X")
 end
 
 def turn(board)
-  p "PLease enter 1-9:"
+  print "PLease enter 1-9:"
   input = gets.strip
   idx = input_to_index(input)
   if valid_move?(board, idx)
